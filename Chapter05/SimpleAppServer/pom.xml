@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.isiflix.serweja</groupId>
+    <artifactId>serweja</artifactId>
+    <version>0.0.1</version>
+
+    <properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.ee.serweja</groupId>
+            <artifactId>serweja-ee</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>serweja</finalName>
+    </build>
+
+    <!-- <repositories>
+        <repository>
+            <id>serweja-ee</id>
+            <name>serweja-ee</name>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <url>http://isigit.professorisidro.com.br/professorisidro/serweja-ee/releases</url>
+        </repository>
+    </repositories>--> 
+</project>
