@@ -17,7 +17,7 @@ import io.simpleweb.framework.datastructures.ServiceImplementationMap;
 import io.simpleweb.framework.explorer.ClassExplorer;
 import io.simpleweb.framework.util.SimpleLogger;
 
-public class SimpleSpringWebApplication {
+public class SimpleWebFramework {
 	public static void run(Class<?> sourceClass) {
 
 		// zerar o logo do apache tomcat

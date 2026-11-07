@@ -1,0 +1,16 @@
+# Compiled classes and build output
+*.class
+target/
+out/
+bin/
+
+# Packaged files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
