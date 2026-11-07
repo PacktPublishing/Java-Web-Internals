@@ -1,17 +1,17 @@
-package br.com.simpleapp.webappcontroller;
+package br.com.simpleapp.webapp.controller;
 
-import br.com.simpleapp.webappmodel.Produto;
-import br.com.simpleapp.webappservice.IService;
-import io.simpleweb.frameworkannotations.SimpleBody;
-import io.simpleweb.frameworkannotations.SimpleController;
-import io.simpleweb.frameworkannotations.SimpleGetMethod;
-import io.simpleweb.frameworkannotations.SimpleInjected;
-import io.simpleweb.frameworkannotations.SimplePostMethod;
+import br.com.simpleapp.webapp.model.Product;
+import br.com.simpleapp.webapp.service.IService;
+import io.simpleweb.framework.annotations.SimpleBody;
+import io.simpleweb.framework.annotations.SimpleController;
+import io.simpleweb.framework.annotations.SimpleGetMethod;
+import io.simpleweb.framework.annotations.SimpleInjected;
+import io.simpleweb.framework.annotations.SimplePostMethod;
 
 @SimpleController
 public class HelloController {
 	
-	@SimpleInjected SimpleService service;
+	@SimpleInjected IService service;
 	
 	@SimpleGetMethod("/hello")
 	public String sayHelloWorld() {
@@ -23,7 +23,7 @@ public class HelloController {
 		return "it Works!";
 	}
 	
-	@SimpleGetMethod("/produto")
+	@SimpleGetMethod("/product")
 	public Product getProduct() {
 		Product p = new Product();
 		p.setId(123456);

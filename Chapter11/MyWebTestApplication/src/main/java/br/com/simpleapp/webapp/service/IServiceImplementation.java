@@ -1,6 +1,6 @@
 package br.com.simpleapp.webapp.service;
 
-import io.simpleweb.framework.annotations.IsiService;
+import io.simpleweb.framework.annotations.SimpleService;
 
 @SimpleService
 public class IServiceImplementation implements IService{

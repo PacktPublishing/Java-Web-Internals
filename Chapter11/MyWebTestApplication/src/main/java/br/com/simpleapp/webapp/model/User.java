@@ -1,4 +1,4 @@
-package br.com.isiflix.webtestapp.model;
+package br.com.simpleapp.webapp.model;
 
 public class User {
 

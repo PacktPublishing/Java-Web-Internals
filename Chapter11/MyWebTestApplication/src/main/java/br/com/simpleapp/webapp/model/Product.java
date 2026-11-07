@@ -1,6 +1,6 @@
-package br.com.isiflix.webtestapp.model;
+package br.com.simpleapp.webapp.model;
 
-public class Produto {
+public class Product {
 	private int id;
 	private String name;
 	private double price;
@@ -27,7 +27,7 @@ public class Produto {
 	public String getLinkPhoto() {
 		return linkPhoto;
 	}
-	public void setLinkPhto(String linkPhoto) {
+	public void setLinkPhoto(String linkPhoto) {
 		this.linkPhoto = linkPhoto;
 	}
 	@Override
